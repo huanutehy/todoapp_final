@@ -89,7 +89,7 @@ class TodoWidget extends StatelessWidget {
             ),
           ),
         ],
-      ),
+      )
     ),
   );
 
@@ -99,7 +99,7 @@ class TodoWidget extends StatelessWidget {
 
     Utils.showSnackBar(context, 'Deleted the task');
   }
-
+//huan ngu
   void editTodo(BuildContext context, Todo todo) => Navigator.of(context).push(
     MaterialPageRoute(
       builder: (context) => EditTodoPage(todo: todo),
